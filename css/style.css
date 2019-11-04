@@ -1,0 +1,52 @@
+body{
+background-color:#F4F4F4;
+}
+
+a, a:visited, a:active, a:link{
+text-decoration: none;
+color:inherit;
+font:inherit;
+
+}
+
+.navigation{
+font-size:0;
+}
+
+.navItem{
+display:inline-block;
+font-size:18px;
+text-transform: capitalize;
+font-family: sans-serif;
+font-weight:500;
+
+}
+
+
+.navItemStyle{
+background-color: green;
+color:white;
+text-align:center;
+width:200px;
+padding: 15px 20px;
+border: 1px solid black;
+}
+
+.navItemStyle:hover{
+background-color:#184730;
+
+
+}
+
+.navItemStyle:hover>.submenuItem{
+.navItemStyle:hover
+}
+.submenuItem{
+display:list-item;
+}
+
+.submenu{
+display:none;
+
+}
+
